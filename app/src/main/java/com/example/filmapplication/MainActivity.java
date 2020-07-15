@@ -2,14 +2,19 @@ package com.example.filmapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.telecom.Call;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.GridView;
 import android.widget.SearchView;
 
+import com.example.GoFilm;
+import com.example.Poster;
+
 public class MainActivity extends AppCompatActivity {
     GridView gridView;
+
 
 
     @Override
@@ -18,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         this.gridView = findViewById(R.id.gv_1);
+
+
 
 
     }
